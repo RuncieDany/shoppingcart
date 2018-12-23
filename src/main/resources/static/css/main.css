@@ -1,0 +1,49 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+    .bg-dark {
+    background-color: #343a40 !important;
+}
+.card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;	
+	border-radius: .25rem
+}
+.mt-4 {
+	margin-top: 7.0rem !important
+}
+footer{
+	position:relative;
+}
+.copyright{
+	position:absolute;
+	bottom:0;
+	
+}
+.copyright-text p {
+    color: #ccc;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+.container-shopping {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+}
